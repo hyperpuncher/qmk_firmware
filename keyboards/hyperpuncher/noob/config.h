@@ -1,8 +1,11 @@
 // Copyright 2024 hyperpuncher (@hyperpuncher)
 // SPDX-License-Identifier: GPL-2.0-or-later
+// clang-format off
 
 #pragma once
 
+#define ENCODERS_PAD_A { GP14 }
+#define ENCODERS_PAD_B { GP15 }
 /*
  * Feature disable options
  *  These options are also useful to firmware size reduction.
